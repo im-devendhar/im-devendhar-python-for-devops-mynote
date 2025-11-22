@@ -4,7 +4,7 @@ def addition(a,b):
     addition = a + b
     return addition
 
-def subtraction(a,b):   # FIXED spelling
+def subtraction(a,b):   
     subtraction = a - b
     return subtraction
 
@@ -20,7 +20,7 @@ if operation == "addition":
     output = addition(a,b)
     print(output)
 
-elif operation == "subtraction":   # FIXED spelling
+elif operation == "subtraction":   
     output = subtraction(a,b)
     print(output)
 
